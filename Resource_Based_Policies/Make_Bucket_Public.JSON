@@ -1,0 +1,13 @@
+{
+	"Version": "2012-10-17",
+	"Id": "Policy1652522843176",
+	"Statement": [
+		{
+			"Sid": "Stmt1652522841307",
+			"Effect": "Allow",
+			"Principal": "*",
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::<bucket-name>/*"
+		}
+	]
+}
